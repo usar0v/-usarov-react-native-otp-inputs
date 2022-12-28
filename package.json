@@ -1,0 +1,39 @@
+{
+  "name": "@usarov/react-native-otp-inputs",
+  "version": "1.0.2",
+  "description": "```bash $ yarn add @usarov/react-native-otp-inputs @react-native-clipboard/clipboard ```",
+  "main": "src/index.tsx",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "bootstrap": "yarn example && yarn && husky install",
+    "example": "yarn --cwd Example",
+    "lint": "eslint --ext .js,.ts,.tsx ."
+  },
+  "repository": "https://github.com/usar0v/react-native-otp-inputs.git",
+  "author": "Usarov",
+  "keywords": [
+    "otp",
+    "react-native",
+    "one-time-password",
+    "one-time-code",
+    "inputs"
+  ],
+  "license": "ISC",
+  "peerDependencies": {
+    "@react-native-clipboard/clipboard": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/usar0v/react-native-otp-inputs/issues"
+  },
+  "homepage": "https://github.com/usar0v/react-native-otp-inputs#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "eslint": "^8.30.0",
+    "eslint-plugin-react": "^7.31.11"
+  }
+}
